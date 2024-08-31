@@ -5,7 +5,7 @@ interface Invoice {
   due: string;
 }
 
-let invoices: Invoce[] = [
+const invoices: Invoice[] = [
   {
     name: "Santa Monica",
     number: 1995,
